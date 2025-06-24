@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4cc3899e-a7df-451a-9a10-031d23b09827")
+	(paper "A4")
+	(title_block
+		(title "Battery powered Arduino clone with clock &  Extended EEPROM")
+		(date "2025-06-23")
+		(rev "1")
+		(company "DGN Holdings")
+		(comment 1 "Designed by Gathonjia in Toll, Nanyuki")
+	)
+	(lib_symbols)
+)
