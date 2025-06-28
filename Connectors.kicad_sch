@@ -834,7 +834,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x03_Odd_Even"
+		(property "Value" "ICSP"
 			(at 121.92 106.68 0)
 			(effects
 				(font
@@ -915,7 +915,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "Serial"
 			(at 160.02 82.5499 0)
 			(effects
 				(font
@@ -991,7 +991,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x09"
+		(property "Value" "Digital pins"
 			(at 123.19 81.2799 0)
 			(effects
 				(font
@@ -1082,7 +1082,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "I2C"
 			(at 160.02 114.2999 0)
 			(effects
 				(font
