@@ -816,6 +816,54 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "N8 - SPI connector"
+		(exclude_from_sim no)
+		(at 160.782 102.616 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "aab660a3-1f7a-405d-9529-1101f2c2bbbe")
+	)
+	(text "N6 - Serial connector"
+		(exclude_from_sim no)
+		(at 110.49 69.088 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "ba964fa9-d534-44f7-9a53-8df9644ec89c")
+	)
+	(text "N5 - I2C connector"
+		(exclude_from_sim no)
+		(at 157.988 69.088 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "c68fd793-ae43-4faf-b44c-85ea57522ccc")
+	)
+	(text "N7 - GPIO connector"
+		(exclude_from_sim no)
+		(at 111.76 102.362 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f1b3d32b-7632-408b-9162-ab09f49f0cc6")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 167.64 121.92 0)
