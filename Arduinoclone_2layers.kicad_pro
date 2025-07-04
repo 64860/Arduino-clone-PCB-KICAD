@@ -473,7 +473,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BACEE.kicad_pro",
+    "filename": "Arduinoclone_2layers.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -598,7 +598,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "Arduinoclone4layers.dsn",
+      "specctra_dsn": "Arduinoclone.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
