@@ -1,0 +1,114 @@
+
+(rules PCB Arduinoclone2layers
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1387)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.5)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.7)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clear 200.0)
+    (clear 100.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:300_um-Power" "Via[0-1]_600:300_um" Power
+  )
+  (via 
+    "Via[0-1]_800:400_um-Power" "Via[0-1]_800:400_um" Power
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:300_um-kicad_default"
+  )
+  (via_rule
+    Power "Via[0-1]_800:400_um-Power"
+  )
+  (class default
+    GNDPWR /VCC
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(U4-PB6)" "Net-(U4-PB7)" "Net-(D1-K)" /SCK /D7 /D6 /D5 /D4
+    /D3 /D8 /D2 /RX /TX /MOSI /MISO /RESET
+    /SDA /ADDS1 /ADDS2 "unconnected-(U3-INTB-Pad7)" "Net-(U3-X2)" "Net-(U3-X1)" "unconnected-(U4-ADC7-Pad22)" "unconnected-(U4-ADC6-Pad19)"
+    "unconnected-(U4-PB2-Pad14)" "unconnected-(U4-PC3-Pad26)" "unconnected-(U4-PC5-Pad28)" "unconnected-(U4-PC2-Pad25)" "unconnected-(U4-PB1-Pad13)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

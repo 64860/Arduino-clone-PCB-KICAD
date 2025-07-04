@@ -1,4 +1,4 @@
-(pcb "C:\Users\Dennis\Documents\KiCad Projects\Learning\Arduino clone\BACEE\Arduinoclone.dsn"
+(pcb "C:\Users\Dennis\Documents\KiCad Projects\Learning\Arduino clone\BACEE\Arduinoclone2layers.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -93,12 +93,12 @@
       (place J3 150241.000000 -81783.000000 front 0.000000 (PN ICSP))
     )
     (component Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical
-      (place J2 159744.657000 -68834.000000 front 90.000000 (PN Serial))
+      (place J2 159744.700000 -68834.000000 front 90.000000 (PN Serial))
       (place J4 171704.000000 -68834.000000 front 90.000000 (PN I2C))
     )
     (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
       (place C1 163830.000000 -72136.000000 front 0.000000 (PN 22pF))
-      (place C2 163830.000000 -74766.881000 front 0.000000 (PN 22pF))
+      (place C2 163830.000000 -74766.900000 front 0.000000 (PN 22pF))
       (place C3 179958.000000 -81407.000000 front 0.000000 (PN 10uF))
     )
     (component "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
@@ -112,14 +112,14 @@
       (place BT1 147701.000000 -74168.000000 front 0.000000 (PN "Battery 3V"))
     )
     (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
-      (place R2 153394.657000 -69684.000000 front 0.000000 (PN 10KOhm))
+      (place R2 153394.700000 -69684.000000 front 0.000000 (PN 10KOhm))
       (place R1 179831.000000 -84455.000000 front 0.000000 (PN 330Ohm))
     )
     (component LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
       (place D1 184667.000000 -84455.000000 front 0.000000 (PN LED))
     )
     (component "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering"
-      (place Y2 156144.657000 -73846.881000 front 0.000000 (PN 16MHz))
+      (place Y2 156144.700000 -73846.900000 front 0.000000 (PN 16MHz))
     )
     (component "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
       (place U3 182817.000000 -75057.000000 front 0.000000 (PN DS13375+))
